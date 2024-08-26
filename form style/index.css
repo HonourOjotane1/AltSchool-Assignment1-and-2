@@ -1,0 +1,20 @@
+.body{background-color: rgb(33, 99, 99);
+
+}
+#h1{
+    color: white;
+}
+#submit{background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 20px;
+color: white;
+}
+#submit:hover{color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.p{
+    color: white;
+}
+#options{font-size: 10px;
+
+}

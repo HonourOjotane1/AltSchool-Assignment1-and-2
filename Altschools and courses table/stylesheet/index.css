@@ -32,6 +32,8 @@ background-color: grey;
     text-align: left;
     border: solid white;
     background-color: grey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #th-title{
     border: solid white;

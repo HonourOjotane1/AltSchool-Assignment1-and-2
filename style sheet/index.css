@@ -1,6 +1,14 @@
 .body {
   background-color: rgb(33, 99, 99);
 }
+.nav{text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+justify-content: space-around;
+
+}
 #header {
   color: white;
   font-size: 25px;

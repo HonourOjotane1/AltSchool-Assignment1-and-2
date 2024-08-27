@@ -1,8 +1,12 @@
-.body{ background-color: aquamarine;
+.body{ background-color: rgb(33, 99, 99);
     text-align: center;
 }
-#Tablebox{border: solid gray 0.15em;
+#heading{ color: white;
     
+}
+#Tablebox{border: solid white 0.15em;
+    border-collapse: collapse;
+
 
 }
 #schoolname{ font-size: 5em;
@@ -10,11 +14,24 @@
 
 }
 #Tableheading{font-size: 2em;
+    color: white;
 
 }
 .Tablesubheading{font-size: 1.5em;
+    color: white;
+    border: solid white;
 
 }
 #Tabledata{
     font-size: 1em;
+    color: white;
+}
+.td{
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: solid white;
+}
+#th-title{
+    border: solid white;
 }

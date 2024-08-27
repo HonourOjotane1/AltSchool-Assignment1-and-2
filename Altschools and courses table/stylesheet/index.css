@@ -24,7 +24,7 @@ background-color: grey;
 font-family: Arial, Helvetica, sans-serif;
 }
 #Tabledata{
-    font-size: 1em;
+    font-size: 1.5em;
     color: white;
 }
 .td{
@@ -40,5 +40,5 @@ font-family: Arial, Helvetica, sans-serif;
     border: solid white;
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1em;
 }

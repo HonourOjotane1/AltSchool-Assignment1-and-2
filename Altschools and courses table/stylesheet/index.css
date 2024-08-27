@@ -20,7 +20,7 @@
 .Tablesubheading{font-size: 1.5em;
     color: white;
     border: solid white;
-
+background-color: grey;
 }
 #Tabledata{
     font-size: 1em;
@@ -31,7 +31,9 @@
     padding: 10px;
     text-align: left;
     border: solid white;
+    background-color: grey;
 }
 #th-title{
     border: solid white;
+    background-color: grey;
 }

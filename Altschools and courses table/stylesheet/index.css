@@ -1,0 +1,20 @@
+.body{ background-color: aquamarine;
+    text-align: center;
+}
+#Tablebox{border: solid gray 0.15em;
+    
+
+}
+#schoolname{ font-size: 5em;
+
+
+}
+#Tableheading{font-size: 2em;
+
+}
+.Tablesubheading{font-size: 1.5em;
+
+}
+#Tabledata{
+    font-size: 1em;
+}

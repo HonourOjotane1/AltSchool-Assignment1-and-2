@@ -71,6 +71,7 @@ padding: 15px;
         padding: 0 10px;
       /* Add padding to ensure content doesn't touch the edges */
       overflow-x: auto;
+      display: inline-table;
     }
 
     table {

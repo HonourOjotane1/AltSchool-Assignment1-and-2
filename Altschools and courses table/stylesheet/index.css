@@ -1,13 +1,20 @@
 .body{ background-color: rgb(33, 99, 99);
-    text-align: center;
+    text-align: center; 
+    justify-content: center;
+    height: 100vh;
+    display: flex; 
 }
-#heading{ color: white;
-    
+
+#heading{ color: white;   
 }
+
 #Tablebox{border: solid white 0.15em;
     border-collapse: collapse;
-
-
+}
+#Tablebox  :hover{background-color: rgb(67, 71, 71) ;
+}
+  .td :hover{
+    background-color: rgb(67, 71, 71);
 }
 #schoolname{ font-size: 5em;
 
@@ -22,6 +29,7 @@
     border: solid white;
 background-color: grey;
 font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
 }
 #Tabledata{
     font-size: 1.5em;
@@ -41,4 +49,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+/*#Tablebox #tr :hover{background-color: black;
+
 }

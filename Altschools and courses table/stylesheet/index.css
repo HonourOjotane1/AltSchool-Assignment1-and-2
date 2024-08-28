@@ -2,7 +2,10 @@
     text-align: center; 
     justify-content: center;
     height: 100vh;
-    display: flex; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline; 
 }
 
 #heading{ color: white;   
@@ -10,6 +13,8 @@
 
 #Tablebox{border: solid white 0.15em;
     border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
 }
 #Tablebox  :hover{background-color: rgb(67, 71, 71) ;
 }
@@ -29,7 +34,7 @@
     border: solid white;
 background-color: grey;
 font-family: Arial, Helvetica, sans-serif;
-padding: 10px;
+padding: 15px;
 }
 #Tabledata{
     font-size: 1.5em;
@@ -37,7 +42,7 @@ padding: 10px;
 }
 .td{
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     border: solid white;
     background-color: grey;
@@ -50,6 +55,40 @@ padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
-/*#Tablebox #tr :hover{background-color: black;
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
 
+    caption {
+        font-size: 1.5em;
+    }
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 10px;
+      /* Add padding to ensure content doesn't touch the edges */
+      overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.8em;
+        table-layout: fixed;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: right;
+        padding: 10px;
+        word-wrap: break-word;
+    }
+}
+
+    
+/*#Tablebox #tr :hover{background-color: black; } */
+      
